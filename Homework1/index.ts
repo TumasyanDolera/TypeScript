@@ -1,6 +1,8 @@
 
 // Remove all null and undefined values !!!
 
+import { any, number } from "prop-types";
+
 // type Person = {
 //     firstName: string;
 //     lastName: string;
@@ -97,6 +99,26 @@
 // console.log(isPalindrome(num));
 
 
+
+
+// Find missing number
+
+
+// function ShowMissingNumber(num: number[]): void {
+//   const max = Math.max(10);
+//   const min = Math.min(1);
+//   const missing: number[] = []
+
+//   for (let i = min; i <= max; i++) {
+//     if (!num.includes(i)) {
+//       missing.push(i);
+//     }
+//   }
+//   console.log(missing);
+
+// }
+
+// ShowMissingNumber([1, 8, 9]);
 
 
 
